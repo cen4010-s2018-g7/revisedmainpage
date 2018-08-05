@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+body {
+  background: url(https://keelingassociates.com/wp-content/uploads/2017/12/FAU.jpg) no-repeat center center fixed;;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.camp-snap-logo{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-icons{
+  font-size: 50px !important;
+}
+
+.camp-snap-title {
+    font-size: 50px;
+    position: relative;
+}
+
+.login-card {
+    padding: 40px;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    bottom: 0;
+    height: 400px;
+    top: 0;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.login-card h1 {
+  font-weight: 100;
+  text-align: left;
+  font-size: 2.3em;
+  margin-bottom: 1px;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.navbar{
+  background-color: white;
+}
+
+.jumbotron{
+  margin-bottom: 0 !important;
+}
+
+.display-4{
+  text-align: center;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-mid{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bckgrnd{
+  background-color: white;
+}
+
+.card{
+ margin: 0 auto;
+ width: 50%;
+ overflow: hidden;
+}
+
+.card-img-top {
+  width:100%;
+ height:100%;
+ object-fit: cover;
+ overflow: hidden;
+}
+
+.img{
+  width:100%;
+ height:100%;
+ object-fit: cover;
+ overflow: hidden;
+}
+
+.img-container{
+  width: 100%;
+  height: 370px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.small-logo{
+  font-size: 25px;
+}
+
+@media (max-width: 680px){
+  .fas{
+    font-size: 26px;
+  }
+
+  .camp-snap-title{
+    font-size: 26px;
+  }
+
+  .login-card{
+    width: 70%;
+  }
+}
